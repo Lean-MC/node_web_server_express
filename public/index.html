@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="formulario">
+        <h1 class="title">Lista de Tareas</h1>
+        <form id="formulario">
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <label for="titulo">Título:</label> 
+            <input type="text" id="titulo" name="titulo" autocomplete="off" required>
+            <label for="tarea">Tarea:</label>
+            <input type="text" id="tarea" name="tarea" autocomplete="off" required>
+            <button type="submit">Agregar</button>
+        </form>
+    </div>
+    
+    <div id="tareas"></div>
+   
+    <script src="scripts.js"></script>
+</body>
+</html>
